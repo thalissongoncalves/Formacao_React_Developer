@@ -1,0 +1,16 @@
+- Instala VS Code
+- Instala Node e Npm, caso não queira usar npm, use o Yarn
+- Instale o React DevTools: https://github.com/facebook/react/tree/main/packages/react-devtools-extensions
+
+Extensões para VS Code:
+- Bracket Pair Colorizer (Serve para dar mais destaque nos blocos de códigos)
+- Color Highlight (Serve para ao mostrar um hexadecimal que coloque um contorno mostrando qual cor é aquela)
+- EditorConfig for VS Code 
+- ES7 + React/Redux/React-Native snippets (Serve para já ter alguns inícios padrões de códigos em React)
+- ESLint (Serve para configurar regras de padrão de código)
+- Markdown Preview Github Styling (Serve para fazer por exemplo README.md e ter um preview do lado pra ver como está ficando)
+- Material Icon Theme
+- Omni Theme
+- Prettier Code Formater
+- Todo Tree (Dá pra ver todos os comentários que contém no código)
+- Turbo Console Log (Você aperta Ctrl + Alt + L e já cria um console.log automatico em cima do trecho selecionado)
