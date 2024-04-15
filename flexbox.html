@@ -5,14 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeira página 2</title>
     <style>
+        body {
+            background-color: blue;
+        }
+
         .flex {
             display: flex;
+            width: 100%;
+            flex-direction: row;
+            align-items: center;
         }
         .item {
             width: 80px;
             height: 80px;
             background-color: blueviolet;
             display: flex;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .item:hover {
+            background-color: red;
+            cursor: pointer;
+        }
+
+        .item:first-child:hover, .item:last-child:hover {
+            background-color: green;
+        }
+
+        input:focus {
+            border-color: red;
+            background: grey;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: green;
+            }
+
+            .flex {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
@@ -23,6 +59,11 @@
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+    <div>
+        <input />
     </div>
 </body>
 </html>
